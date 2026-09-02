@@ -46,7 +46,7 @@
     <section class="chapter" id="autor" data-title="Autoría y trazabilidad">
       <div class="chapter-heading"><p class="eyebrow">02 · 12 minutos</p><h2>El caso del macaco: una historia útil sobre autoría.</h2><p>Una fotografía tomada por un macaco abrió una pregunta aparentemente extraña: ¿quién puede ser autor? El caso sirve para distinguir entre intervenir en la creación y atribuir derechos a una herramienta.</p></div>
       <div class="two-columns">
-        <div class="story-card"><p class="story-number">2011 → 2017</p><h3>La “selfie del macaco”</h3><p>El debate involucró al fotógrafo David Slater, Wikimedia y una demanda presentada por PETA. El caso no decide el derecho de autor de la IA, pero deja una lección: una herramienta o un animal no se convierte automáticamente en autor por producir una imagen.</p><a class="text-link" href="https://www.wipo.int/en/web/copyright/activities/monkey-selfie" target="_blank" rel="noopener">Ver explicación de la OMPI ↗</a></div>
+        <div class="story-card"><p class="story-number">2011 → 2017</p><h3>La “selfie del macaco”</h3><p>El debate involucró al fotógrafo David Slater, Wikimedia y una demanda presentada por PETA. El caso no decide el derecho de autor de la IA, pero deja una lección: una herramienta o un animal no se convierte automáticamente en autor por producir una imagen.</p><a class="text-link" href="https://www.wipo.int/es/web/wipo-magazine/articles/can-the-monkey-selfie-case-teach-us-anything-about-copyright-law-40287" target="_blank" rel="noopener">Leer artículo de la OMPI ↗</a></div>
         <div class="lesson-card"><p class="panel-label">Traslado prudente a IA generativa</p><ol><li><strong>La IA no tiene personalidad jurídica.</strong></li><li><strong>La intervención humana importa,</strong> pero no garantiza por sí sola protección o titularidad.</li><li><strong>Las fuentes, licencias y términos de uso importan.</strong></li><li><strong>Declara y documenta</strong> el uso de IA cuando sea relevante.</li></ol></div>
       </div>
       <div class="callout gold"><strong>Regla de trabajo:</strong> no presentes una salida de IA como evidencia definitiva, autoría propia o contenido libre de restricciones sin revisar fuentes, licencias, términos y aporte humano. Los detalles jurídicos dependen de la jurisdicción y el caso.</div>
@@ -83,6 +83,30 @@
         <article><span>Contrato</span><h3>¿Cómo se sale?</h3><p>¿Portabilidad de datos, condiciones de terminación, responsabilidades y soporte definidos?</p></article>
       </div>
       <div class="question-strip"><span>Gobernanza mínima</span><p>Inventario de herramientas, responsable del caso de uso, reglas de datos, evaluación de riesgo, revisión periódica y un canal para incidentes.</p></div>
+      <div class="terms-activity">
+        <div><p class="eyebrow">Actividad breve · 10 minutos</p><h3>Auditen condiciones antes de confiar.</h3><p>Por equipos, revisen dos proveedores y compartan un hallazgo verificable. No peguen datos reales de estudiantes: la meta es aprender a leer condiciones, no procesar información personal.</p></div>
+        <ol><li>Copien el prompt CREA y asígnenle a cada equipo uno o dos proveedores.</li><li>Exijan enlaces oficiales, fecha de vigencia y la diferencia entre cuenta individual e institucional.</li><li>Compartan una alerta, una pregunta para el proveedor y una condición para avanzar.</li></ol>
+        <div class="terms-actions"><button class="button dark" type="button" data-copy-target="prompt-terminos">Copiar prompt</button><a class="button ghost" href="assets/ejemplos/auditoria-terminos-ia.md" download>Descargar en Markdown</a></div>
+      </div>
+      <details class="prompt-details"><summary>Ver el prompt CREA para la auditoría</summary><pre id="prompt-terminos"><code># C · Contexto y rol
+Actúa como analista de contratación tecnológica, protección de datos y seguridad. Prepara una nota preliminar para directivos de la Pontificia Universidad Javeriana que evalúan herramientas de IA generativa en procesos que podrían involucrar datos de estudiantes.
+
+# R · Restricciones y criterios
+- Investiga solo fuentes oficiales y vigentes de cada proveedor: términos de uso, política de privacidad, condiciones Business/Enterprise/Education/API y, si existe, DPA o anexo de tratamiento de datos.
+- Compara ChatGPT/OpenAI, Claude/Anthropic, DeepSeek, Kimi/Moonshot, Qwen/Alibaba Cloud, Mistral AI, Gemini/Google y Grok/xAI.
+- Distingue siempre cuenta individual/pública de cuenta institucional, empresarial, educativa o API. No extrapoles garantías entre planes.
+- Para cada afirmación, registra URL, título del documento, fecha de vigencia o actualización y fecha de consulta. Si no puedes verificar algo, escribe “No verificado”; no lo inventes.
+- No concluyas que una herramienta cumple la ley ni recomiendes cargar datos reales de estudiantes. Esta es una revisión inicial, no asesoría jurídica.
+- Revisa: uso de datos para entrenamiento o mejora; controles de exclusión; datos de estudiantes y datos sensibles; retención, eliminación, ubicación y transferencias; seguridad y controles administrativos; propiedad/licencias de entrada y salida; cambios de condiciones, terminación, responsabilidad y jurisdicción; supervisión humana y decisiones de alto impacto.
+
+# E · Estructura de salida
+1. Resumen ejecutivo de máximo 180 palabras.
+2. Tabla en Markdown: proveedor y plan revisado | fuente oficial | datos/entrenamiento | retención y ubicación | alerta o condición para datos de estudiantes | pregunta pendiente.
+3. Lista de hallazgos críticos, separando “verificado” y “no verificado”.
+4. Cierre: condiciones mínimas antes de un piloto institucional y qué debe escalarse a Jurídica, Protección de Datos y Seguridad.
+
+# A · Acción principal
+Busca, compara y sintetiza las condiciones vigentes de los ocho proveedores. Prioriza lo que puede afectar a la Universidad y a estudiantes. Si no tienes acceso a navegación web, detente y dilo en lugar de responder de memoria.</code></pre></details>
     </section>
 
     <section class="chapter" id="marcos" data-title="Marcos de referencia">

@@ -33,5 +33,19 @@
     localStorage.setItem('ia-etica-legal-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
   });
   if (localStorage.getItem('ia-etica-legal-theme') === 'dark') document.body.classList.add('dark');
+
+  document.querySelectorAll('[data-copy-target]').forEach(button => button.addEventListener('click', async () => {
+    const source = document.querySelector(`#${button.dataset.copyTarget}`);
+    if (!source) return;
+    const label = button.textContent;
+    try {
+      await navigator.clipboard.writeText(source.innerText);
+      button.textContent = 'Prompt copiado';
+      setTimeout(() => { button.textContent = label; }, 1800);
+    } catch (_) {
+      button.textContent = 'Selecciona y copia';
+    }
+  }));
+
   setCurrent(0);
 })();

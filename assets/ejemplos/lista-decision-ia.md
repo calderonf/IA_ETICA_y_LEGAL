@@ -6,7 +6,10 @@
 
 - ¿Qué problema concreto se busca resolver?
 - ¿Qué beneficio esperamos y para quién?
-- ¿La IA es proporcional o existe una alternativa más simple?
+- ¿El beneficio esperado justifica los datos, recursos y riesgos que implica usar IA?
+  - Aquí, **proporcional** significa que el nivel de intervención, costo y riesgo debe ser razonable frente al problema y al beneficio que se obtiene.
+  - Compárala con una alternativa menos intrusiva: un proceso manual, una regla simple, una plantilla, una búsqueda documental o una herramienta que no reciba datos personales.
+  - Si la mejora es pequeña frente a un posible daño, sesgo o exposición de información, el uso no es proporcional: elige la alternativa o no uses IA.
 
 ## 2. Personas y datos
 
